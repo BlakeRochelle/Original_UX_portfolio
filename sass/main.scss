@@ -1,0 +1,149 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/* @import "compass/reset"; */
+body { font-size: .875rem; }
+p, h3, h4, h5, span {
+	&::selection {
+		background-color: #00ccff;
+		color: #004E64;
+	}	
+}
+
+p { font-family: 'Montserrat'; }
+h3, h4, h5, .text-dark { color: #004E64 !important }
+
+.nav-bar {
+	box-shadow: 0 .125rem .25rem rgba(0,204,255,.075)!important;
+	a {
+		color: #9DB4C0;
+		&.active { color: #004e64 }
+		&:hover { color: #4f6367 !important }
+		&::selection {
+			background-color: #00ccff;
+			color: #004E64;
+		}	
+	}
+	h5 > a {
+		&:hover { 
+			color: #BFC0C0!important; //#283044
+			text-decoration: none; 
+			text-shadow: 1px 1px 1px #00ccff;
+		}
+	}
+
+}
+
+.container.index {
+	.header {
+		h2 {
+			color: #00ccff; 
+			font-family: 'Nunito Sans', sans-serif; 
+			font-size: 4rem;
+			font-weight: 700; 
+			&::selection {
+				background-color: #004E64;
+				color: #fff;
+			}
+		}
+	}
+	.projects {
+		a { text-decoration: none }
+	}
+	.ux-process,
+	.ux-tools {
+		margin: 1.25rem 0px;
+		h4 { 
+			font-family: 'Nunito Sans', sans-serif; 
+			margin-bottom: .625rem;
+		}
+		img { 
+			padding: 1rem 0px;
+			width: 80%; 
+		}
+	}
+	.ux-tools img { 
+		padding: 1rem 8rem 8rem;
+		width: 80%; 
+	} 
+}
+
+.container.about {
+	.row:first-of-type > .col {
+		padding: 1.25rem 0px;
+		p {
+			column-count: 2; 
+			column-rule: 1px solid #707070; 
+			column-gap: 40px;
+		}	
+	}
+	.row:last-of-type > .col {
+		p {
+			display: flex;
+			justify-content: center;
+			> a {
+				color: #004e64;
+				padding-left: .25rem;
+				&:hover { color: #4f6367 !important }
+				&::selection {
+					background-color: #00ccff;
+					color: #004E64;
+				}	
+			}
+		}		
+	}
+}
+
+.container.work {
+	h5 { margin-bottom: 1rem }
+	.overview { padding: 1.25rem 0px }
+	figure { 
+		width: 100%; 
+		> img { 
+			border: 1px solid #707070;
+			padding: .625rem; 
+		}
+	}
+	.bottom-divider > div {
+		border-bottom: 1px solid #4d4d4d; 
+		margin: 1.25rem auto;
+	}
+	.other-projects {
+		margin-bottom: 1rem 0px 1.25rem; 
+		div.col-sm-6:first-of-type { border-right: 1px solid #707070; }
+		a { 
+			text-decoration: none; 
+			img { 
+				background: #fff;
+				border: 1px solid #aaa;
+				margin-bottom: .625rem;
+				padding: .625rem; 
+			}
+		}
+		h5 { margin: 0px; }
+	}
+}
+
+.social-icons {
+	padding-bottom: 1.25rem;
+	a { text-decoration: none }
+	a:hover i { 
+		color: #004E64;
+		transition: all .375s ease-in-out;
+	}
+	.icon-container {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		margin: 0px .625rem;
+		i { color: #00ccff }
+		span {
+			color: #004E64;
+			font-size: .625rem;
+			font-family: 'Nunito Sans', sans-serif; 
+			padding-top: .125rem;
+		}
+	}
+}

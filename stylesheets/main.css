@@ -1,0 +1,200 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* @import "compass/reset"; */
+/* line 7, ../sass/main.scss */
+body {
+  font-size: .875rem;
+}
+
+/* line 9, ../sass/main.scss */
+p::selection, h3::selection, h4::selection, h5::selection, span::selection {
+  background-color: #00ccff;
+  color: #004E64;
+}
+
+/* line 15, ../sass/main.scss */
+p {
+  font-family: 'Montserrat';
+}
+
+/* line 16, ../sass/main.scss */
+h3, h4, h5, .text-dark {
+  color: #004E64 !important;
+}
+
+/* line 18, ../sass/main.scss */
+.nav-bar {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 204, 255, 0.075) !important;
+}
+/* line 20, ../sass/main.scss */
+.nav-bar a {
+  color: #9DB4C0;
+}
+/* line 22, ../sass/main.scss */
+.nav-bar a.active {
+  color: #004e64;
+}
+/* line 23, ../sass/main.scss */
+.nav-bar a:hover {
+  color: #4f6367 !important;
+}
+/* line 24, ../sass/main.scss */
+.nav-bar a::selection {
+  background-color: #00ccff;
+  color: #004E64;
+}
+/* line 30, ../sass/main.scss */
+.nav-bar h5 > a:hover {
+  color: #BFC0C0 !important;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #00ccff;
+}
+
+/* line 41, ../sass/main.scss */
+.container.index .header h2 {
+  color: #00ccff;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+/* line 46, ../sass/main.scss */
+.container.index .header h2::selection {
+  background-color: #004E64;
+  color: #fff;
+}
+/* line 53, ../sass/main.scss */
+.container.index .projects a {
+  text-decoration: none;
+}
+/* line 55, ../sass/main.scss */
+.container.index .ux-process,
+.container.index .ux-tools {
+  margin: 1.25rem 0px;
+}
+/* line 58, ../sass/main.scss */
+.container.index .ux-process h4,
+.container.index .ux-tools h4 {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: .625rem;
+}
+/* line 62, ../sass/main.scss */
+.container.index .ux-process img,
+.container.index .ux-tools img {
+  padding: 1rem 0px;
+  width: 80%;
+}
+/* line 67, ../sass/main.scss */
+.container.index .ux-tools img {
+  padding: 1rem 8rem 8rem;
+  width: 80%;
+}
+
+/* line 74, ../sass/main.scss */
+.container.about .row:first-of-type > .col {
+  padding: 1.25rem 0px;
+}
+/* line 76, ../sass/main.scss */
+.container.about .row:first-of-type > .col p {
+  column-count: 2;
+  column-rule: 1px solid #707070;
+  column-gap: 40px;
+}
+/* line 83, ../sass/main.scss */
+.container.about .row:last-of-type > .col p {
+  display: flex;
+  justify-content: center;
+}
+/* line 86, ../sass/main.scss */
+.container.about .row:last-of-type > .col p > a {
+  color: #004e64;
+  padding-left: .25rem;
+}
+/* line 89, ../sass/main.scss */
+.container.about .row:last-of-type > .col p > a:hover {
+  color: #4f6367 !important;
+}
+/* line 90, ../sass/main.scss */
+.container.about .row:last-of-type > .col p > a::selection {
+  background-color: #00ccff;
+  color: #004E64;
+}
+
+/* line 100, ../sass/main.scss */
+.container.work h5 {
+  margin-bottom: 1rem;
+}
+/* line 101, ../sass/main.scss */
+.container.work .overview {
+  padding: 1.25rem 0px;
+}
+/* line 102, ../sass/main.scss */
+.container.work figure {
+  width: 100%;
+}
+/* line 104, ../sass/main.scss */
+.container.work figure > img {
+  border: 1px solid #707070;
+  padding: .625rem;
+}
+/* line 109, ../sass/main.scss */
+.container.work .bottom-divider > div {
+  border-bottom: 1px solid #4d4d4d;
+  margin: 1.25rem auto;
+}
+/* line 113, ../sass/main.scss */
+.container.work .other-projects {
+  margin-bottom: 1rem 0px 1.25rem;
+}
+/* line 115, ../sass/main.scss */
+.container.work .other-projects div.col-sm-6:first-of-type {
+  border-right: 1px solid #707070;
+}
+/* line 116, ../sass/main.scss */
+.container.work .other-projects a {
+  text-decoration: none;
+}
+/* line 118, ../sass/main.scss */
+.container.work .other-projects a img {
+  background: #fff;
+  border: 1px solid #aaa;
+  margin-bottom: .625rem;
+  padding: .625rem;
+}
+/* line 125, ../sass/main.scss */
+.container.work .other-projects h5 {
+  margin: 0px;
+}
+
+/* line 129, ../sass/main.scss */
+.social-icons {
+  padding-bottom: 1.25rem;
+}
+/* line 131, ../sass/main.scss */
+.social-icons a {
+  text-decoration: none;
+}
+/* line 132, ../sass/main.scss */
+.social-icons a:hover i {
+  color: #004E64;
+  transition: all .375s ease-in-out;
+}
+/* line 136, ../sass/main.scss */
+.social-icons .icon-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0px .625rem;
+}
+/* line 141, ../sass/main.scss */
+.social-icons .icon-container i {
+  color: #00ccff;
+}
+/* line 142, ../sass/main.scss */
+.social-icons .icon-container span {
+  color: #004E64;
+  font-size: .625rem;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: .125rem;
+}
