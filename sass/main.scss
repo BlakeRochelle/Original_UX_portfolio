@@ -73,13 +73,18 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 .container.about {
 	.row:first-of-type > .col {
 		padding: 1.25rem 0px;
-		p {
+		p:first-of-type {
 			column-count: 2; 
 			column-rule: 1px solid #707070; 
 			column-gap: 40px;
+		}
+		p:not(:first-of-type) {
+			float: right;
+			text-align: right;
+			width: 50%;
 		}	
 	}
-	.row:last-of-type > .col {
+	.row:nth-of-type(2) > .col {
 		p {
 			display: flex;
 			justify-content: center;
@@ -93,6 +98,9 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 				}	
 			}
 		}		
+	}
+	.row:last-of-type > .col { 
+		text-align: right;
 	}
 }
 
