@@ -51,6 +51,13 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 	}
 	.projects {
 		a { text-decoration: none }
+		img {
+			border: 1px solid #aaa; 
+			background: #fff; 
+			padding: 1rem; 
+			height: 200px; 
+			margin: 1rem
+		}
 	}
 	.ux-process,
 	.ux-tools {
