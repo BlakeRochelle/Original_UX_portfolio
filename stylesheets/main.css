@@ -95,7 +95,7 @@ h3, h4, h5, .text-dark {
 }
 /* line 74, ../sass/main.scss */
 .container.index .ux-tools img {
-  padding: 1rem 8rem 8rem;
+  padding: 1rem 8rem 3.750em;
   width: 80%;
 }
 
