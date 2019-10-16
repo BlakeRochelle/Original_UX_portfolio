@@ -50,6 +50,10 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 		}
 	}
 	.projects {
+		h4 { 
+			font-family: 'Nunito Sans', sans-serif; 
+			margin-bottom: .625rem;
+		}
 		a { text-decoration: none }
 		img {
 			border: 1px solid #aaa; 
