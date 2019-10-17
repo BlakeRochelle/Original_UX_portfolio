@@ -179,6 +179,14 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 			}
 		}
 		h5 { margin: 0px; }
+		div.col-sm-6:last-of-type a > div {
+			display: flex;
+			justify-content: space-between;
+			img { 
+				max-width: 32%;
+				width: auto;
+			}
+		}
 	}
 }
 

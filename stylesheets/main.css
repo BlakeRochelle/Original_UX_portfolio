@@ -259,32 +259,42 @@ h3, h4, h5, .text-dark {
 .container.work .other-projects h5 {
   margin: 0px;
 }
-
+/* line 182, ../sass/main.scss */
+.container.work .other-projects div.col-sm-6:last-of-type a > div {
+  display: flex;
+  justify-content: space-between;
+}
 /* line 185, ../sass/main.scss */
+.container.work .other-projects div.col-sm-6:last-of-type a > div img {
+  max-width: 32%;
+  width: auto;
+}
+
+/* line 193, ../sass/main.scss */
 .social-icons {
   padding-bottom: 1.25rem;
 }
-/* line 187, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 .social-icons a {
   text-decoration: none;
 }
-/* line 188, ../sass/main.scss */
+/* line 196, ../sass/main.scss */
 .social-icons a:hover i {
   color: #004E64;
   transition: all .375s ease-in-out;
 }
-/* line 192, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .social-icons .icon-container {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0px .625rem;
 }
-/* line 197, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 .social-icons .icon-container i {
   color: #00ccff;
 }
-/* line 198, ../sass/main.scss */
+/* line 206, ../sass/main.scss */
 .social-icons .icon-container span {
   color: #004E64;
   font-size: .625rem;
