@@ -60,7 +60,11 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 			background: #fff; 
 			padding: 1rem; 
 			height: 200px; 
-			margin: 1rem
+			margin: 1rem;
+			@media only screen and (max-width: 992px) {
+				height: auto;
+				width: 100%;
+			}
 		}
 	}
 	.ux-process,
@@ -72,12 +76,15 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 		}
 		img { 
 			padding: 1rem 0px;
-			width: 80%; 
+			width: 80%;
+			@media only screen and (max-width: 768px) { width: 100% } 
 		}
 	}
 	.ux-tools img { 
-		padding: 1rem 8rem 3.750em;
+		padding: .625rem 8rem 3.750em;
 		width: 80%; 
+		@media only screen and (max-width: 992px) { padding: 1rem 3rem 2.50em }
+		@media only screen and (max-width: 768px) { padding: .625rem 1.25rem 1rem } 
 	} 
 }
 
