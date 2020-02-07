@@ -7,23 +7,23 @@
 body { font-size: .875rem; }
 p, h3, h4, h5, span {
 	&::selection {
-		background-color: #00ccff;
-		color: #004E64;
+		background-color: #005b94;
+		color: #fff;
 	}	
 }
 
 p { font-family: 'Montserrat'; }
-h3, h4, h5, .text-dark { color: #004E64 !important }
+h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 
 .nav-bar {
 	box-shadow: 0 .125rem .25rem rgba(0,204,255,.075)!important;
 	a {
 		color: #9DB4C0;
-		&.active { color: #004e64 }
+		&.active { color: #005b94 }
 		&:hover { color: #4f6367 !important }
 		&::selection {
 			background-color: #00ccff;
-			color: #004E64;
+			color: #005b94;
 		}	
 	}
 	h5 > a {
@@ -39,7 +39,7 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 .container.index {
 	.header {
 		h2 {
-			color: #00ccff; 
+			color: #003057;//#00ccff
 			font-family: 'Nunito Sans', sans-serif; 
 			font-size: 4rem;
 			font-weight: 700; 
@@ -77,13 +77,13 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 		img { 
 			padding: 1rem 0px;
 			width: 80%;
-			@media only screen and (max-width: 768px) { width: 100% } 
+			@media only screen and (max-width: 991px) { width: 100% } 
 		}
 	}
 	.ux-tools img { 
 		padding: .625rem 8rem 3.750em;
 		width: 80%; 
-		@media only screen and (max-width: 992px) { padding: 1rem 3rem 2.50em }
+		@media only screen and (max-width: 991px) { padding: 1rem 3rem 2.50em }
 		@media only screen and (max-width: 768px) { padding: .625rem 1.25rem 1rem } 
 	} 
 }
@@ -194,7 +194,7 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 	padding-bottom: 1.25rem;
 	a { text-decoration: none }
 	a:hover i { 
-		color: #004E64;
+		color: #003057;
 		transition: all .375s ease-in-out;
 	}
 	.icon-container {
@@ -202,9 +202,9 @@ h3, h4, h5, .text-dark { color: #004E64 !important }
 		display: flex;
 		flex-direction: column;
 		margin: 0px .625rem;
-		i { color: #00ccff }
+		i { color: #005b94 } //#00ccff
 		span {
-			color: #004E64;
+			color: #003057; //#004E64
 			font-size: .625rem;
 			font-family: 'Nunito Sans', sans-serif; 
 			padding-top: .125rem;

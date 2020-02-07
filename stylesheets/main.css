@@ -10,8 +10,8 @@ body {
 
 /* line 9, ../sass/main.scss */
 p::selection, h3::selection, h4::selection, h5::selection, span::selection {
-  background-color: #00ccff;
-  color: #004E64;
+  background-color: #005b94;
+  color: #fff;
 }
 
 /* line 15, ../sass/main.scss */
@@ -21,7 +21,7 @@ p {
 
 /* line 16, ../sass/main.scss */
 h3, h4, h5, .text-dark {
-  color: #004E64 !important;
+  color: #005b94 !important;
 }
 
 /* line 18, ../sass/main.scss */
@@ -34,7 +34,7 @@ h3, h4, h5, .text-dark {
 }
 /* line 22, ../sass/main.scss */
 .nav-bar a.active {
-  color: #004e64;
+  color: #005b94;
 }
 /* line 23, ../sass/main.scss */
 .nav-bar a:hover {
@@ -43,7 +43,7 @@ h3, h4, h5, .text-dark {
 /* line 24, ../sass/main.scss */
 .nav-bar a::selection {
   background-color: #00ccff;
-  color: #004E64;
+  color: #005b94;
 }
 /* line 30, ../sass/main.scss */
 .nav-bar h5 > a:hover {
@@ -54,7 +54,7 @@ h3, h4, h5, .text-dark {
 
 /* line 41, ../sass/main.scss */
 .container.index .header h2 {
-  color: #00ccff;
+  color: #003057;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 4rem;
   font-weight: 700;
@@ -105,7 +105,7 @@ h3, h4, h5, .text-dark {
   padding: 1rem 0px;
   width: 80%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   /* line 77, ../sass/main.scss */
   .container.index .ux-process img,
   .container.index .ux-tools img {
@@ -117,7 +117,7 @@ h3, h4, h5, .text-dark {
   padding: .625rem 8rem 3.750em;
   width: 80%;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   /* line 83, ../sass/main.scss */
   .container.index .ux-tools img {
     padding: 1rem 3rem 2.5em;
@@ -280,7 +280,7 @@ h3, h4, h5, .text-dark {
 }
 /* line 196, ../sass/main.scss */
 .social-icons a:hover i {
-  color: #004E64;
+  color: #003057;
   transition: all .375s ease-in-out;
 }
 /* line 200, ../sass/main.scss */
@@ -292,11 +292,11 @@ h3, h4, h5, .text-dark {
 }
 /* line 205, ../sass/main.scss */
 .social-icons .icon-container i {
-  color: #00ccff;
+  color: #005b94;
 }
 /* line 206, ../sass/main.scss */
 .social-icons .icon-container span {
-  color: #004E64;
+  color: #003057;
   font-size: .625rem;
   font-family: 'Nunito Sans', sans-serif;
   padding-top: .125rem;
