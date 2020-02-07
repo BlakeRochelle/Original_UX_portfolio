@@ -42,8 +42,8 @@ h3, h4, h5, .text-dark {
 }
 /* line 24, ../sass/main.scss */
 .nav-bar a::selection {
-  background-color: #00ccff;
-  color: #005b94;
+  background-color: #005b94;
+  color: #fff;
 }
 /* line 30, ../sass/main.scss */
 .nav-bar h5 > a:hover {

@@ -22,8 +22,8 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 		&.active { color: #005b94 }
 		&:hover { color: #4f6367 !important }
 		&::selection {
-			background-color: #00ccff;
-			color: #005b94;
+			background-color: #005b94;
+			color: #fff;
 		}	
 	}
 	h5 > a {
