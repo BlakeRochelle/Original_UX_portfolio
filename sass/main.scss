@@ -162,6 +162,24 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 			padding: .625rem; 
 		}
 	}
+	.iframe-container {
+		border: 1px solid #707070;
+		max-width: 1323px; /** replace with your canvas width **/
+		margin: 0px auto 1rem;
+		overflow: hidden;
+		padding-top: 58.05%; /* h/w, i.e. 768/1323, replace with your percentage */
+		position: relative;		
+		.responsive-iframe {
+			border: 0;
+			height: 100%;
+			left: 0;
+			max-height: 100vh;
+			max-width: calc(100vh * 1.72); /* replace with your number, divide canvas width by height, i.e. 1323w/768h = 1.78 */
+			position: absolute;
+			top: 0;
+			width: 100%; 
+		}
+	}
 	.bottom-divider > div {
 		border-bottom: 1px solid #4d4d4d; 
 		margin: 1.25rem auto;

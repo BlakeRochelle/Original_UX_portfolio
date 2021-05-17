@@ -139,7 +139,6 @@ h3, h4, h5, .text-dark {
   column-count: 2;
   column-rule: 1px solid #707070;
   column-gap: 40px;
-  text-align: left;
 }
 /* line 99, ../sass/main.scss */
 .container.about .row:first-of-type > .col p:not(:first-of-type) {
@@ -233,69 +232,92 @@ h3, h4, h5, .text-dark {
   padding: .625rem;
 }
 /* line 165, ../sass/main.scss */
+.container.work .iframe-container {
+  border: 1px solid #707070;
+  max-width: 1323px;
+  /** replace with your canvas width **/
+  margin: 0px auto 1rem;
+  overflow: hidden;
+  padding-top: 58.05%;
+  /* h/w, i.e. 768/1323, replace with your percentage */
+  position: relative;
+}
+/* line 172, ../sass/main.scss */
+.container.work .iframe-container .responsive-iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  max-height: 100vh;
+  max-width: calc(100vh * 1.72);
+  /* replace with your number, divide canvas width by height, i.e. 1323w/768h = 1.78 */
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* line 183, ../sass/main.scss */
 .container.work .bottom-divider > div {
   border-bottom: 1px solid #4d4d4d;
   margin: 1.25rem auto;
 }
-/* line 169, ../sass/main.scss */
+/* line 187, ../sass/main.scss */
 .container.work .other-projects {
   margin-bottom: 1rem 0px 1.25rem;
 }
-/* line 171, ../sass/main.scss */
+/* line 189, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:first-of-type {
   border-right: 1px solid #707070;
 }
-/* line 172, ../sass/main.scss */
+/* line 190, ../sass/main.scss */
 .container.work .other-projects a {
   text-decoration: none;
 }
-/* line 174, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
 .container.work .other-projects a img {
   background: #fff;
   border: 1px solid #aaa;
   margin-bottom: .625rem;
   padding: .625rem;
 }
-/* line 181, ../sass/main.scss */
+/* line 199, ../sass/main.scss */
 .container.work .other-projects h5 {
   margin: 0px;
 }
-/* line 182, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:last-of-type a > div {
   display: flex;
   justify-content: space-between;
 }
-/* line 185, ../sass/main.scss */
+/* line 203, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:last-of-type a > div img {
   max-width: 32%;
   width: auto;
 }
 
-/* line 193, ../sass/main.scss */
+/* line 211, ../sass/main.scss */
 .social-icons {
   padding-bottom: 1.25rem;
 }
-/* line 195, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 .social-icons a {
   text-decoration: none;
 }
-/* line 196, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 .social-icons a:hover i {
   color: #003057;
   transition: all .375s ease-in-out;
 }
-/* line 200, ../sass/main.scss */
+/* line 218, ../sass/main.scss */
 .social-icons .icon-container {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0px .625rem;
 }
-/* line 205, ../sass/main.scss */
+/* line 223, ../sass/main.scss */
 .social-icons .icon-container i {
   color: #005b94;
 }
-/* line 206, ../sass/main.scss */
+/* line 224, ../sass/main.scss */
 .social-icons .icon-container span {
   color: #003057;
   font-size: .625rem;
