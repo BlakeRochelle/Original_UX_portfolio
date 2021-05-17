@@ -139,6 +139,7 @@ h3, h4, h5, .text-dark {
   column-count: 2;
   column-rule: 1px solid #707070;
   column-gap: 40px;
+  text-align: left;
 }
 /* line 99, ../sass/main.scss */
 .container.about .row:first-of-type > .col p:not(:first-of-type) {
