@@ -236,7 +236,7 @@ h3, h4, h5, .text-dark {
   border: 1px solid #707070;
   max-width: 1323px;
   /** replace with your canvas width **/
-  margin: 0px auto 1rem;
+  margin: 0px auto .625rem;
   overflow: hidden;
   padding-top: 58.05%;
   /* h/w, i.e. 768/1323, replace with your percentage */
