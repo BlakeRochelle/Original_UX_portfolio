@@ -47,7 +47,7 @@ h3, h4, h5, .text-dark {
 }
 /* line 30, ../sass/main.scss */
 .nav-bar h5 > a:hover {
-  color: #BFC0C0 !important;
+  color: #283044 !important;
   text-decoration: none;
   text-shadow: 1px 1px 1px #00ccff;
 }
