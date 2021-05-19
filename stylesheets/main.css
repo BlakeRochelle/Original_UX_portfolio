@@ -89,102 +89,109 @@ h3, h4, h5, .text-dark {
     width: 100%;
   }
 }
-/* line 74, ../sass/main.scss */
+@media only screen and (max-width: 575px) {
+  /* line 62, ../sass/main.scss */
+  .container.index .projects img {
+    height: auto;
+    width: 90%;
+  }
+}
+/* line 78, ../sass/main.scss */
 .container.index .ux-process,
 .container.index .ux-tools {
   margin: 2.5rem 0px;
 }
-/* line 77, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 .container.index .ux-process h4,
 .container.index .ux-tools h4 {
   font-family: 'Nunito Sans', sans-serif;
   margin-bottom: .625rem;
 }
-/* line 81, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 .container.index .ux-process img,
 .container.index .ux-tools img {
   padding: 1rem 0px;
   width: 80%;
 }
 @media only screen and (max-width: 991px) {
-  /* line 81, ../sass/main.scss */
+  /* line 85, ../sass/main.scss */
   .container.index .ux-process img,
   .container.index .ux-tools img {
     width: 100%;
   }
 }
-/* line 87, ../sass/main.scss */
+/* line 91, ../sass/main.scss */
 .container.index .ux-tools img {
   padding: .625rem 8rem 3.750em;
   width: 75%;
 }
 @media only screen and (max-width: 991px) {
-  /* line 87, ../sass/main.scss */
+  /* line 91, ../sass/main.scss */
   .container.index .ux-tools img {
     padding: 1rem 3rem 2.5em;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 87, ../sass/main.scss */
+  /* line 91, ../sass/main.scss */
   .container.index .ux-tools img {
     padding: 0.625rem 1.25rem 1rem;
   }
 }
 
-/* line 96, ../sass/main.scss */
+/* line 100, ../sass/main.scss */
 .container.about .row:first-of-type > .col {
   padding: 1.25rem 0px;
 }
-/* line 98, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .container.about .row:first-of-type > .col p:first-of-type {
   column-count: 2;
   column-rule: 1px solid #707070;
   column-gap: 40px;
 }
-/* line 103, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 .container.about .row:first-of-type > .col p:not(:first-of-type) {
   float: right;
   text-align: right;
   width: 50%;
 }
 @media only screen and (max-width: 768px) {
-  /* line 103, ../sass/main.scss */
+  /* line 107, ../sass/main.scss */
   .container.about .row:first-of-type > .col p:not(:first-of-type) {
     float: none;
     text-align: center;
     width: 100%;
   }
 }
-/* line 115, ../sass/main.scss */
+/* line 119, ../sass/main.scss */
 .container.about .row:nth-of-type(2) > .col p {
   display: flex;
   justify-content: center;
 }
-/* line 118, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 .container.about .row:nth-of-type(2) > .col p > a {
   color: #004e64;
   padding-left: .25rem;
 }
-/* line 121, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 .container.about .row:nth-of-type(2) > .col p > a:hover {
   color: #4f6367 !important;
 }
-/* line 122, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 .container.about .row:nth-of-type(2) > .col p > a::selection {
   background-color: #00ccff;
   color: #004E64;
 }
-/* line 129, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 .container.about .row:last-of-type > .col {
   text-align: right;
 }
-/* line 131, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 .container.about .row:last-of-type > .col > div {
   float: right;
   margin-bottom: 1rem;
   margin-top: -5rem;
 }
-/* line 136, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 .container.about .row:last-of-type > .col img {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
@@ -193,46 +200,46 @@ h3, h4, h5, .text-dark {
   border: 3px solid #004e64;
   box-shadow: 2px 2px 10px rgba(0, 204, 255, 0.25);
 }
-/* line 144, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 .container.about .row:last-of-type > .col figcaption {
   padding-top: 0.625rem;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 129, ../sass/main.scss */
+  /* line 133, ../sass/main.scss */
   .container.about .row:last-of-type > .col {
     text-align: center;
   }
-  /* line 147, ../sass/main.scss */
+  /* line 151, ../sass/main.scss */
   .container.about .row:last-of-type > .col > div {
     margin-top: -2rem;
   }
 }
 @media only screen and (max-width: 990px) {
-  /* line 150, ../sass/main.scss */
+  /* line 154, ../sass/main.scss */
   .container.about .row:last-of-type > .col > div {
     float: none;
     margin-top: 0rem;
   }
 }
 
-/* line 160, ../sass/main.scss */
+/* line 164, ../sass/main.scss */
 .container.work h5 {
   margin-bottom: 1rem;
 }
-/* line 161, ../sass/main.scss */
+/* line 165, ../sass/main.scss */
 .container.work .overview {
   padding: 1.25rem 0px;
 }
-/* line 162, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 .container.work figure {
   width: 100%;
 }
-/* line 164, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 .container.work figure > img {
   border: 1px solid #707070;
   padding: .625rem;
 }
-/* line 169, ../sass/main.scss */
+/* line 173, ../sass/main.scss */
 .container.work .iframe-container {
   border: 1px solid #707070;
   max-width: 1323px;
@@ -243,7 +250,7 @@ h3, h4, h5, .text-dark {
   /* h/w, i.e. 768/1323, replace with your percentage */
   position: relative;
 }
-/* line 176, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .container.work .iframe-container .responsive-iframe {
   border: 0;
   height: 100%;
@@ -255,70 +262,70 @@ h3, h4, h5, .text-dark {
   top: 0;
   width: 100%;
 }
-/* line 187, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 .container.work .bottom-divider > div {
   border-bottom: 1px solid #4d4d4d;
   margin: 1.25rem auto;
 }
-/* line 191, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 .container.work .other-projects {
   margin-bottom: 1rem 0px 1.25rem;
 }
-/* line 193, ../sass/main.scss */
+/* line 197, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:first-of-type {
   border-right: 1px solid #707070;
 }
-/* line 194, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 .container.work .other-projects a {
   text-decoration: none;
 }
-/* line 196, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .container.work .other-projects a img {
   background: #fff;
   border: 1px solid #aaa;
   margin-bottom: .625rem;
   padding: .625rem;
 }
-/* line 203, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 .container.work .other-projects h5 {
   margin: 0px;
 }
-/* line 204, ../sass/main.scss */
+/* line 208, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:last-of-type a > div {
   display: flex;
   justify-content: space-between;
 }
-/* line 207, ../sass/main.scss */
+/* line 211, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:last-of-type a > div img {
   max-width: 32%;
   width: auto;
 }
 
-/* line 215, ../sass/main.scss */
+/* line 219, ../sass/main.scss */
 .social-icons {
   padding-bottom: 1.25rem;
 }
-/* line 217, ../sass/main.scss */
+/* line 221, ../sass/main.scss */
 .social-icons a {
   text-decoration: none;
 }
-/* line 218, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 .social-icons a:hover i {
   color: #003057;
   transition: all .375s ease-in-out;
 }
-/* line 222, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 .social-icons .icon-container {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0px .625rem;
 }
-/* line 227, ../sass/main.scss */
+/* line 231, ../sass/main.scss */
 .social-icons .icon-container i {
   color: #005b94;
 }
-/* line 228, ../sass/main.scss */
+/* line 232, ../sass/main.scss */
 .social-icons .icon-container span {
   color: #003057;
   font-size: .625rem;
