@@ -82,6 +82,18 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 				width: 90%;
 			}
 		}
+		> div.col-sm-6:last-of-type a > div {
+			display: flex;
+			justify-content: space-between;
+			img { 
+				background: #fff;
+			    border: 1px solid #aaa;
+			    margin: 0px 0px .625rem 0px;
+			    max-width: 32%;
+			    padding: .625rem;
+				width: auto;
+			}
+		}
 	}
 	.ux-process,
 	.ux-tools {
