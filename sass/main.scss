@@ -22,6 +22,8 @@ p, h3, h4, h5, span {
 p { font-family: 'Montserrat'; }
 h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 
+.hide { display: none }
+
 .nav-bar {
 	box-shadow: 0 .125rem .25rem rgba(0,204,255,.075)!important;
     top: 0;
@@ -70,30 +72,35 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 		img {
 			border: 1px solid #aaa; 
 			background: #fff; 
-			padding: 1rem; 
-			height: 250px; 
-			margin: 1rem;
+			padding: .625rem; 
+			max-height: 220px; 
+			margin: .5rem;
 			@media only screen and (max-width: 992px) {
 				height: auto;
-				width: 100%;
+				max-height: none;
+				width: 50%;
 			}
 			@media only screen and (max-width: 575px) {
 				height: auto;
-				width: 90%;
+				max-height: none;
+				width: 50%;
 			}
 		}
 		> div.col-md-6:last-of-type {
 			margin-top: 1rem;
-			a > div {
+			> div {
 				display: flex;
 				justify-content: space-between;
-				img { 
-					background: #fff;
-				    border: 1px solid #aaa;
-				    margin: 0px 0px .625rem 0px;
-				    max-width: 32%;
-				    padding: .625rem;
-					width: auto;
+				a {
+					max-width: 32%;
+					img { 
+						background: #fff;
+					    border: 1px solid #aaa;
+					    margin: 0px 0px .625rem 0px;
+					    max-width: 100%;
+					    padding: .625rem;
+						width: auto;
+					}
 				}
 			}	
 		}
@@ -269,4 +276,14 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 			padding-top: .125rem;
 		}
 	}
+}
+
+
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
