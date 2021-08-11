@@ -234,6 +234,9 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 	}
 	.other-projects {
 		margin-bottom: 1rem 0px 1.25rem; 
+		div.col-sm-6 {
+			@media only screen and (max-width: 992px) { text-align: center!important }
+		}
 		div.col-sm-6:first-of-type { border-right: 1px solid #707070; }
 		a { text-decoration: none }
 		img {
