@@ -235,13 +235,22 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 	.other-projects {
 		margin-bottom: 1rem 0px 1.25rem; 
 		div.col-sm-6:first-of-type { border-right: 1px solid #707070; }
-		a { 
-			text-decoration: none; 
-			img { 
-				background: #fff;
-				border: 1px solid #aaa;
-				margin-bottom: .625rem;
-				padding: .625rem; 
+		a { text-decoration: none }
+		img {
+			border: 1px solid #aaa; 
+			background: #fff; 
+			padding: .625rem; 
+			max-height: 220px; 
+			margin: .5rem;
+			@media only screen and (max-width: 992px) {
+				height: auto;
+				max-height: none;
+				width: 50%;
+			}
+			@media only screen and (max-width: 575px) {
+				height: auto;
+				max-height: none;
+				width: 50%;
 			}
 		}
 		h5 { margin: 0px; }

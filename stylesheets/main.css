@@ -329,49 +329,66 @@ h3, h4, h5, .text-dark {
 .container.work .other-projects a {
   text-decoration: none;
 }
-/* line 240, ../sass/main.scss */
-.container.work .other-projects a img {
-  background: #fff;
+/* line 239, ../sass/main.scss */
+.container.work .other-projects img {
   border: 1px solid #aaa;
-  margin-bottom: .625rem;
+  background: #fff;
   padding: .625rem;
+  max-height: 220px;
+  margin: .5rem;
 }
-/* line 247, ../sass/main.scss */
+@media only screen and (max-width: 992px) {
+  /* line 239, ../sass/main.scss */
+  .container.work .other-projects img {
+    height: auto;
+    max-height: none;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  /* line 239, ../sass/main.scss */
+  .container.work .other-projects img {
+    height: auto;
+    max-height: none;
+    width: 50%;
+  }
+}
+/* line 256, ../sass/main.scss */
 .container.work .other-projects h5 {
   margin: 0px;
 }
-/* line 248, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:last-of-type a > div {
   display: flex;
   justify-content: space-between;
 }
-/* line 251, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:last-of-type a > div img {
   max-width: 32%;
   width: auto;
 }
 
-/* line 261, ../sass/main.scss */
+/* line 270, ../sass/main.scss */
 .social-icons a {
   text-decoration: none;
 }
-/* line 262, ../sass/main.scss */
+/* line 271, ../sass/main.scss */
 .social-icons a:hover i {
   color: #003057;
   transition: all .375s ease-in-out;
 }
-/* line 266, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 .social-icons .icon-container {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0px .625rem;
 }
-/* line 271, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 .social-icons .icon-container i {
   color: #005b94;
 }
-/* line 272, ../sass/main.scss */
+/* line 281, ../sass/main.scss */
 .social-icons .icon-container span {
   color: #003057;
   font-size: .625rem;
@@ -379,12 +396,12 @@ h3, h4, h5, .text-dark {
   padding-top: .125rem;
 }
 
-/* line 283, ../sass/main.scss */
+/* line 292, ../sass/main.scss */
 img.hover-shadow {
   transition: 0.3s;
 }
 
-/* line 287, ../sass/main.scss */
+/* line 296, ../sass/main.scss */
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
