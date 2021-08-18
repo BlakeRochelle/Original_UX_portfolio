@@ -80,12 +80,15 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 				max-height: none;
 				width: 50%;
 			}
-			@media only screen and (max-width: 575px) {
-				height: auto;
-				max-height: none;
-				width: 75%;
-			}
 		}
+		@media only screen and (max-width: 767px) { 
+			.design-project {
+				display: flex;
+				flex-direction: column-reverse;
+				p { margin-bottom: .5rem }
+				img { margin: 0px .5rem 1rem .5rem}
+			}
+		}	
 		> div.col-md-6:last-of-type {
 			margin-top: 1rem;
 			> div {
