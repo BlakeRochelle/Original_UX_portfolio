@@ -23,6 +23,9 @@ p { font-family: 'Montserrat'; }
 h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 
 .hide { display: none }
+.hide-for-mobile {
+	@media only screen and (max-width: 992px) { display: none }	
+}
 
 .nav-bar {
 	box-shadow: 0 .125rem .25rem rgba(0,204,255,.075)!important;
