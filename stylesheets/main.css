@@ -303,19 +303,20 @@ h3, h4, h5, .text-dark {
 @media only screen and (max-width: 991px) {
   /* line 220, ../sass/main.scss */
   .container.work .overview p {
+    padding: 0px 1rem;
     text-align: left;
   }
 }
-/* line 223, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 .container.work figure {
   width: 100%;
 }
-/* line 225, ../sass/main.scss */
+/* line 228, ../sass/main.scss */
 .container.work figure a > img {
   border: 1px solid #707070;
   padding: .625rem;
 }
-/* line 230, ../sass/main.scss */
+/* line 233, ../sass/main.scss */
 .container.work .iframe-container {
   border: 1px solid #707070;
   max-width: 1323px;
@@ -326,7 +327,7 @@ h3, h4, h5, .text-dark {
   /* h/w, i.e. 768/1323, replace with your percentage */
   position: relative;
 }
-/* line 237, ../sass/main.scss */
+/* line 240, ../sass/main.scss */
 .container.work .iframe-container .responsive-iframe {
   border: 0;
   height: 100%;
@@ -338,30 +339,30 @@ h3, h4, h5, .text-dark {
   top: 0;
   width: 100%;
 }
-/* line 248, ../sass/main.scss */
+/* line 251, ../sass/main.scss */
 .container.work .bottom-divider > div {
   border-bottom: 1px solid #4d4d4d;
   margin: 1.25rem auto;
 }
-/* line 252, ../sass/main.scss */
+/* line 255, ../sass/main.scss */
 .container.work .other-projects {
   margin-bottom: 1rem 0px 1.25rem;
 }
 @media only screen and (max-width: 992px) {
-  /* line 254, ../sass/main.scss */
+  /* line 257, ../sass/main.scss */
   .container.work .other-projects div.col-sm-6 {
     text-align: center !important;
   }
 }
-/* line 257, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:first-of-type {
   border-right: 1px solid #707070;
 }
-/* line 258, ../sass/main.scss */
+/* line 261, ../sass/main.scss */
 .container.work .other-projects a {
   text-decoration: none;
 }
-/* line 259, ../sass/main.scss */
+/* line 262, ../sass/main.scss */
 .container.work .other-projects img {
   border: 1px solid #aaa;
   background: #fff;
@@ -370,7 +371,7 @@ h3, h4, h5, .text-dark {
   margin: .5rem;
 }
 @media only screen and (max-width: 992px) {
-  /* line 259, ../sass/main.scss */
+  /* line 262, ../sass/main.scss */
   .container.work .other-projects img {
     height: auto;
     max-height: none;
@@ -378,49 +379,49 @@ h3, h4, h5, .text-dark {
   }
 }
 @media only screen and (max-width: 575px) {
-  /* line 259, ../sass/main.scss */
+  /* line 262, ../sass/main.scss */
   .container.work .other-projects img {
     height: auto;
     max-height: none;
     width: 75%;
   }
 }
-/* line 276, ../sass/main.scss */
+/* line 279, ../sass/main.scss */
 .container.work .other-projects h5 {
   margin: 0px;
 }
-/* line 277, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:last-of-type a > div {
   display: flex;
   justify-content: space-between;
 }
-/* line 280, ../sass/main.scss */
+/* line 283, ../sass/main.scss */
 .container.work .other-projects div.col-sm-6:last-of-type a > div img {
   max-width: 32%;
   width: auto;
 }
 
-/* line 290, ../sass/main.scss */
+/* line 293, ../sass/main.scss */
 .social-icons a {
   text-decoration: none;
 }
-/* line 291, ../sass/main.scss */
+/* line 294, ../sass/main.scss */
 .social-icons a:hover i {
   color: #003057;
   transition: all .375s ease-in-out;
 }
-/* line 295, ../sass/main.scss */
+/* line 298, ../sass/main.scss */
 .social-icons .icon-container {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0px .625rem;
 }
-/* line 300, ../sass/main.scss */
+/* line 303, ../sass/main.scss */
 .social-icons .icon-container i {
   color: #005b94;
 }
-/* line 301, ../sass/main.scss */
+/* line 304, ../sass/main.scss */
 .social-icons .icon-container span {
   color: #003057;
   font-size: .625rem;
@@ -428,12 +429,12 @@ h3, h4, h5, .text-dark {
   padding-top: .125rem;
 }
 
-/* line 312, ../sass/main.scss */
+/* line 315, ../sass/main.scss */
 img.hover-shadow {
   transition: 0.3s;
 }
 
-/* line 316, ../sass/main.scss */
+/* line 319, ../sass/main.scss */
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

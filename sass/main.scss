@@ -217,7 +217,10 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 	.overview { 
 		padding: 1.25rem 0px;
 		@media only screen and (max-width: 991px) { 
-			p { text-align: left }
+			p { 
+				padding: 0px 1rem;
+				text-align: left; 
+			}
 		}
 	}
 	figure { 
