@@ -67,6 +67,9 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 		h4 { 
 			font-family: 'Nunito Sans', sans-serif; 
 			margin-bottom: .625rem;
+			@media only screen and (max-width: 767px) { 
+				margin-top: 1rem;
+			}
 		}
 		a { text-decoration: none }
 		img {
@@ -132,6 +135,12 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 .container.about {
 	.row:first-of-type > .col {
 		padding: 1.25rem 0px;
+		@media only screen and (max-width: 575px) { 
+			p {
+				padding: 0px 1rem;
+				text-align: left;
+			}
+		}
 		p:first-of-type {
 			column-count: 2; 
 			column-rule: 1px solid #707070; 
@@ -205,10 +214,15 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 
 .container.work {
 	h5 { margin-bottom: 1rem }
-	.overview { padding: 1.25rem 0px }
+	.overview { 
+		padding: 1.25rem 0px;
+		@media only screen and (max-width: 991px) { 
+			p { text-align: left }
+		}
+	}
 	figure { 
 		width: 100%; 
-		> img { 
+		a > img { 
 			border: 1px solid #707070;
 			padding: .625rem; 
 		}
