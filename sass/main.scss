@@ -45,9 +45,9 @@ h3, h4, h5, .text-dark { color: #005b94 !important } //#004E64
 	}
 	h5 > a {
 		&:hover { 
-			color: #283044!important; //#BFC0C0
+			color: #005b94 !important; //#283044, #BFC0C0
 			text-decoration: none; 
-			text-shadow: 1px 1px 1px #00ccff;
+			text-shadow: 1px 1px 1px rgba(0, 204, 255, .35); //#00ccff
 		}
 	}
 
